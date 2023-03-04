@@ -66,4 +66,15 @@ public class Node {
 
 }
 
+//-------------- TIME COMPLEXITY 
+Time complexity of the tree traversal of as we visit each node once  O(n) 
+Scace complexity 
+If we don’t consider the size of the stack for function calls then O(1). Otherwise, O(h) where h is the height of the tree.
+
+The height of the skewed tree is n (no. of elements) so the worst space complexity is O(n). Height is (Log n) for the balanced tree so the best space complexity is O(Log n).
+
+
+	
+
+
 
